@@ -1,0 +1,86 @@
+Estado atual das filas de processos:
+Pronto: P1 = 7 <- P2 = 11
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+Quantum: 5
+
+----------> Iniciando execucao
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 7 <- P2 = 11
+Finalizados: vazia
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 2
+Execucao: P2 = 11
+Finalizados: vazia
+P2 esta executando...
+Quantum expirou, P2 sofreu preempcao
+
+P2 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 2 <- P2 = 6
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 2 <- P2 = 6
+Finalizados: vazia
+P1 esta executando...
+P1 terminou a execucao, P1 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P2 = 6
+Finalizados: P1 = 0
+P2 esta executando...
+Quantum expirou, P2 sofreu preempcao
+
+P2 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P2 = 1
+Espera: vazia
+Execucao: vazia
+Finalizados: P1 = 0
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P2 = 1
+Finalizados: P1 = 0
+P2 esta executando...
+P2 terminou a execucao, P2 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: vazia
+Finalizados: P1 = 0 <- P2 = 0
+Nao ha mais processos a serem executados
+----------> Simulacao finalizada

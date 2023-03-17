@@ -1,0 +1,206 @@
+Estado atual das filas de processos:
+Pronto: P1 = 10
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+Quantum: 1
+
+----------> Iniciando execucao
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 10
+Finalizados: vazia
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 9
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 9
+Finalizados: vazia
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 8
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 8
+Finalizados: vazia
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 7
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 7
+Finalizados: vazia
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 6
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 6
+Finalizados: vazia
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 5
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 5
+Finalizados: vazia
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 4
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 4
+Finalizados: vazia
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 3
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 3
+Finalizados: vazia
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 2
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 2
+Finalizados: vazia
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 1
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 1
+Finalizados: vazia
+P1 esta executando...
+P1 terminou a execucao, P1 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: vazia
+Finalizados: P1 = 0
+Nao ha mais processos a serem executados
+----------> Simulacao finalizada

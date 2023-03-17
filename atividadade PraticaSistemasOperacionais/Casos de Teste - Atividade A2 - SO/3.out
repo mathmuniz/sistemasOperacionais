@@ -1,0 +1,496 @@
+Estado atual das filas de processos:
+Pronto: P1 = 10 <- P2 = 5 <- P3 = 3 <- P4 = 6 <- P5 = 7 <- P6 = 2 <- P7 = 15 <- P8 = 2 <- P9 = 1 <- P10 = 20
+Espera: vazia
+Execucao: vazia
+Finalizados: vazia
+
+Quantum: 2
+
+----------> Iniciando execucao
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 10 <- P2 = 5 <- P3 = 3 <- P4 = 6 <- P5 = 7 <- P6 = 2 <- P7 = 15 <- P8 = 2 <- P9 = 1 <- P10 = 20
+Finalizados: vazia
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 8
+Execucao: P2 = 5 <- P3 = 3 <- P4 = 6 <- P5 = 7 <- P6 = 2 <- P7 = 15 <- P8 = 2 <- P9 = 1 <- P10 = 20
+Finalizados: vazia
+P2 esta executando...
+Quantum expirou, P2 sofreu preempcao
+
+P2 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 8 <- P2 = 3
+Execucao: P3 = 3 <- P4 = 6 <- P5 = 7 <- P6 = 2 <- P7 = 15 <- P8 = 2 <- P9 = 1 <- P10 = 20
+Finalizados: vazia
+P3 esta executando...
+Quantum expirou, P3 sofreu preempcao
+
+P3 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 8 <- P2 = 3 <- P3 = 1
+Execucao: P4 = 6 <- P5 = 7 <- P6 = 2 <- P7 = 15 <- P8 = 2 <- P9 = 1 <- P10 = 20
+Finalizados: vazia
+P4 esta executando...
+Quantum expirou, P4 sofreu preempcao
+
+P4 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 8 <- P2 = 3 <- P3 = 1 <- P4 = 4
+Execucao: P5 = 7 <- P6 = 2 <- P7 = 15 <- P8 = 2 <- P9 = 1 <- P10 = 20
+Finalizados: vazia
+P5 esta executando...
+Quantum expirou, P5 sofreu preempcao
+
+P5 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 8 <- P2 = 3 <- P3 = 1 <- P4 = 4 <- P5 = 5
+Execucao: P6 = 2 <- P7 = 15 <- P8 = 2 <- P9 = 1 <- P10 = 20
+Finalizados: vazia
+P6 esta executando...
+P6 terminou a execucao, P6 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 8 <- P2 = 3 <- P3 = 1 <- P4 = 4 <- P5 = 5
+Execucao: P7 = 15 <- P8 = 2 <- P9 = 1 <- P10 = 20
+Finalizados: P6 = 0
+P7 esta executando...
+Quantum expirou, P7 sofreu preempcao
+
+P7 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 8 <- P2 = 3 <- P3 = 1 <- P4 = 4 <- P5 = 5 <- P7 = 13
+Execucao: P8 = 2 <- P9 = 1 <- P10 = 20
+Finalizados: P6 = 0
+P8 esta executando...
+P8 terminou a execucao, P8 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 8 <- P2 = 3 <- P3 = 1 <- P4 = 4 <- P5 = 5 <- P7 = 13
+Execucao: P9 = 1 <- P10 = 20
+Finalizados: P6 = 0 <- P8 = 0
+P9 esta executando...
+P9 terminou a execucao, P9 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 8 <- P2 = 3 <- P3 = 1 <- P4 = 4 <- P5 = 5 <- P7 = 13
+Execucao: P10 = 20
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0
+P10 esta executando...
+Quantum expirou, P10 sofreu preempcao
+
+P10 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 8 <- P2 = 3 <- P3 = 1 <- P4 = 4 <- P5 = 5 <- P7 = 13 <- P10 = 18
+Espera: vazia
+Execucao: vazia
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 8 <- P2 = 3 <- P3 = 1 <- P4 = 4 <- P5 = 5 <- P7 = 13 <- P10 = 18
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 6
+Execucao: P2 = 3 <- P3 = 1 <- P4 = 4 <- P5 = 5 <- P7 = 13 <- P10 = 18
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0
+P2 esta executando...
+Quantum expirou, P2 sofreu preempcao
+
+P2 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 6 <- P2 = 1
+Execucao: P3 = 1 <- P4 = 4 <- P5 = 5 <- P7 = 13 <- P10 = 18
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0
+P3 esta executando...
+P3 terminou a execucao, P3 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 6 <- P2 = 1
+Execucao: P4 = 4 <- P5 = 5 <- P7 = 13 <- P10 = 18
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0
+P4 esta executando...
+Quantum expirou, P4 sofreu preempcao
+
+P4 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 6 <- P2 = 1 <- P4 = 2
+Execucao: P5 = 5 <- P7 = 13 <- P10 = 18
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0
+P5 esta executando...
+Quantum expirou, P5 sofreu preempcao
+
+P5 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 6 <- P2 = 1 <- P4 = 2 <- P5 = 3
+Execucao: P7 = 13 <- P10 = 18
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0
+P7 esta executando...
+Quantum expirou, P7 sofreu preempcao
+
+P7 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 6 <- P2 = 1 <- P4 = 2 <- P5 = 3 <- P7 = 11
+Execucao: P10 = 18
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0
+P10 esta executando...
+Quantum expirou, P10 sofreu preempcao
+
+P10 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 6 <- P2 = 1 <- P4 = 2 <- P5 = 3 <- P7 = 11 <- P10 = 16
+Espera: vazia
+Execucao: vazia
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 6 <- P2 = 1 <- P4 = 2 <- P5 = 3 <- P7 = 11 <- P10 = 16
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 4
+Execucao: P2 = 1 <- P4 = 2 <- P5 = 3 <- P7 = 11 <- P10 = 16
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0
+P2 esta executando...
+P2 terminou a execucao, P2 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 4
+Execucao: P4 = 2 <- P5 = 3 <- P7 = 11 <- P10 = 16
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0
+P4 esta executando...
+P4 terminou a execucao, P4 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 4
+Execucao: P5 = 3 <- P7 = 11 <- P10 = 16
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0
+P5 esta executando...
+Quantum expirou, P5 sofreu preempcao
+
+P5 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 4 <- P5 = 1
+Execucao: P7 = 11 <- P10 = 16
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0
+P7 esta executando...
+Quantum expirou, P7 sofreu preempcao
+
+P7 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 4 <- P5 = 1 <- P7 = 9
+Execucao: P10 = 16
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0
+P10 esta executando...
+Quantum expirou, P10 sofreu preempcao
+
+P10 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 4 <- P5 = 1 <- P7 = 9 <- P10 = 14
+Espera: vazia
+Execucao: vazia
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 4 <- P5 = 1 <- P7 = 9 <- P10 = 14
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0
+P1 esta executando...
+Quantum expirou, P1 sofreu preempcao
+
+P1 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 2
+Execucao: P5 = 1 <- P7 = 9 <- P10 = 14
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0
+P5 esta executando...
+P5 terminou a execucao, P5 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 2
+Execucao: P7 = 9 <- P10 = 14
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0
+P7 esta executando...
+Quantum expirou, P7 sofreu preempcao
+
+P7 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P1 = 2 <- P7 = 7
+Execucao: P10 = 14
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0
+P10 esta executando...
+Quantum expirou, P10 sofreu preempcao
+
+P10 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P1 = 2 <- P7 = 7 <- P10 = 12
+Espera: vazia
+Execucao: vazia
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P1 = 2 <- P7 = 7 <- P10 = 12
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0
+P1 esta executando...
+P1 terminou a execucao, P1 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P7 = 7 <- P10 = 12
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0
+P7 esta executando...
+Quantum expirou, P7 sofreu preempcao
+
+P7 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P7 = 5
+Execucao: P10 = 12
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0
+P10 esta executando...
+Quantum expirou, P10 sofreu preempcao
+
+P10 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P7 = 5 <- P10 = 10
+Espera: vazia
+Execucao: vazia
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P7 = 5 <- P10 = 10
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0
+P7 esta executando...
+Quantum expirou, P7 sofreu preempcao
+
+P7 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P7 = 3
+Execucao: P10 = 10
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0
+P10 esta executando...
+Quantum expirou, P10 sofreu preempcao
+
+P10 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P7 = 3 <- P10 = 8
+Espera: vazia
+Execucao: vazia
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P7 = 3 <- P10 = 8
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0
+P7 esta executando...
+Quantum expirou, P7 sofreu preempcao
+
+P7 foi adicionado a fila de espera
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: P7 = 1
+Execucao: P10 = 8
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0
+P10 esta executando...
+Quantum expirou, P10 sofreu preempcao
+
+P10 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P7 = 1 <- P10 = 6
+Espera: vazia
+Execucao: vazia
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P7 = 1 <- P10 = 6
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0
+P7 esta executando...
+P7 terminou a execucao, P7 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P10 = 6
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0 <- P7 = 0
+P10 esta executando...
+Quantum expirou, P10 sofreu preempcao
+
+P10 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P10 = 4
+Espera: vazia
+Execucao: vazia
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0 <- P7 = 0
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P10 = 4
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0 <- P7 = 0
+P10 esta executando...
+Quantum expirou, P10 sofreu preempcao
+
+P10 foi adicionado a fila de espera
+
+-------------------------------------
+A fila de execucao esta vazia, movendo processos para a fila de prontos
+Estado atual das filas de processos:
+Pronto: P10 = 2
+Espera: vazia
+Execucao: vazia
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0 <- P7 = 0
+
+-------------------------------------
+Processos foram adicionados a fila de execucao
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: P10 = 2
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0 <- P7 = 0
+P10 esta executando...
+P10 terminou a execucao, P10 foi adicionado a fila de finalizados
+
+-------------------------------------
+Estado atual das filas de processos:
+Pronto: vazia
+Espera: vazia
+Execucao: vazia
+Finalizados: P6 = 0 <- P8 = 0 <- P9 = 0 <- P3 = 0 <- P2 = 0 <- P4 = 0 <- P5 = 0 <- P1 = 0 <- P7 = 0 <- P10 = 0
+Nao ha mais processos a serem executados
+----------> Simulacao finalizada
